@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: Text(
           AppStrings().welcomeMessage,
-          style: AppTextStyles().homeheading
+          style:  AppTextStyles().homeheading
         ),
       ),
     );
