@@ -3,4 +3,6 @@ class AppStrings {
   String home2Title = 'Home2 Screen';
   String welcomeMessage = 'Welcome to the Home Screen!';
   String welcomeMessage2 = 'Welcome to the Home2 Screen!';
+  String clickMeButton = 'Click Me!';
+  String clickMeButton2 = 'Click Me2!';
 }

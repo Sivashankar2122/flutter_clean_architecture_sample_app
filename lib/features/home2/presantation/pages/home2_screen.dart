@@ -11,11 +11,20 @@ class Home2Screen extends StatelessWidget {
       appBar: AppBar(title: 
        Text(AppStrings().homeTitle)
        ),
-      body: Center(
-        child: Text(
-          AppStrings().welcomeMessage2,
-          style: AppTextStyles().home2heading
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Center(
+            child: Text(
+              AppStrings().welcomeMessage2,
+              style: AppTextStyles().home2heading
+            ),
+          ),
+          ElevatedButton(
+            onPressed: () {},
+            child: Text(AppStrings().clickMeButton2)
+          ),
+        ],
       ),
     );
   }
